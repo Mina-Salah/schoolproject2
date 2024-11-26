@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school.api", "C:\Users\Mina\source\repos\schoolproject\school.api\school.api.csproj", "{75B174B2-1211-4CA0-93EF-57D8D6A1AA3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "school.service", "school.service\school.service.csproj", "{73229F71-BF0B-4DA8-A186-E81C107E38DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school.service", "school.service\school.service.csproj", "{73229F71-BF0B-4DA8-A186-E81C107E38DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "school.core", "school.core\school.core.csproj", "{47049941-4FA0-46E8-851B-9B7A7FA574E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school.core", "school.core\school.core.csproj", "{47049941-4FA0-46E8-851B-9B7A7FA574E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "school.data", "school.data\school.data.csproj", "{FD1AAB75-0D6D-4A4C-AFA1-71DCEE7D9C8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school.data", "school.data\school.data.csproj", "{FD1AAB75-0D6D-4A4C-AFA1-71DCEE7D9C8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "school.infrastructuer", "school.infrastructuer\school.infrastructuer.csproj", "{366DBC10-3960-4901-8F45-8A728561A787}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school.infrastructuer", "school.infrastructuer\school.infrastructuer.csproj", "{366DBC10-3960-4901-8F45-8A728561A787}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scholl_project_Api", "Scholl_project_Api\Scholl_project_Api.csproj", "{BB622546-E7AC-4759-897F-B23DA5278357}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{75B174B2-1211-4CA0-93EF-57D8D6A1AA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{75B174B2-1211-4CA0-93EF-57D8D6A1AA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{75B174B2-1211-4CA0-93EF-57D8D6A1AA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{75B174B2-1211-4CA0-93EF-57D8D6A1AA3D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{73229F71-BF0B-4DA8-A186-E81C107E38DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{73229F71-BF0B-4DA8-A186-E81C107E38DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73229F71-BF0B-4DA8-A186-E81C107E38DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{366DBC10-3960-4901-8F45-8A728561A787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{366DBC10-3960-4901-8F45-8A728561A787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{366DBC10-3960-4901-8F45-8A728561A787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB622546-E7AC-4759-897F-B23DA5278357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB622546-E7AC-4759-897F-B23DA5278357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB622546-E7AC-4759-897F-B23DA5278357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB622546-E7AC-4759-897F-B23DA5278357}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
