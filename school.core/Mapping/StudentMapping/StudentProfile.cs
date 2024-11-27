@@ -17,6 +17,7 @@ namespace school.core.Mapping.StudentMapping
             GetStudentListMapping();
             GetSingleStudentMappingQuery();
             AddStudentCommendMapping();
+            UpdateStudentCommendMapping();
         }
     }
 

@@ -11,4 +11,8 @@
     <ProjectReference Include="..\school.infrastructuer\school.infrastructuer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DepartmentService\" />
+  </ItemGroup>
+
 </Project>

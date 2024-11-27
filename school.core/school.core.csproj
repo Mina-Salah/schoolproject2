@@ -7,13 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\school.data\school.data.csproj" />
-    <ProjectReference Include="..\school.infrastructuer\school.infrastructuer.csproj" />
-    <ProjectReference Include="..\school.service\school.service.csproj" />
+    <Compile Remove="Bass\NewFolder\**" />
+    <EmbeddedResource Remove="Bass\NewFolder\**" />
+    <None Remove="Bass\NewFolder\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Bass\NewFolder\" />
+    <ProjectReference Include="..\school.data\school.data.csproj" />
+    <ProjectReference Include="..\school.infrastructuer\school.infrastructuer.csproj" />
+    <ProjectReference Include="..\school.service\school.service.csproj" />
   </ItemGroup>
 
   <ItemGroup>
