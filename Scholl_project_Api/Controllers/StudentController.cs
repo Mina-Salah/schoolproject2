@@ -78,7 +78,7 @@ namespace school.api.Controllers
         /// <summary>
         /// Update student information
         /// </summary>
-        [HttpPut(Router.StudentRouting.UpdateStudent)]  // Use the correct route for Update
+        [HttpPut(Router.StudentRouting.UpdateStudent)]  
         public async Task<ActionResult<Response<string>>> UpdateStudent(int id, [FromBody] UpdateStudentCommend command)
         {
             if (!ModelState.IsValid)

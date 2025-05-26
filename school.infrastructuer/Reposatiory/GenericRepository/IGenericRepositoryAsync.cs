@@ -10,17 +10,17 @@ namespace school.infrastructuer.Reposatiory.GenericRepository
     public interface IGenericRepositoryAsync<T> where T : class
     {
         Task DeleteRangeAsync(ICollection<T> entities);
-        Task<T> GetByIdAsync(int id);
-        Task SaveChangesAsync();
+        Task<T> GetByIdAsync(int id);//used
+        Task SaveChangesAsync();//used
         IDbContextTransaction BeginTransaction();
         void Commit();
         void RollBack();
         IQueryable<T> GetTableNoTracking();
         IQueryable<T> GetTableAsTracking();
-        Task<T> AddAsync(T entity);
+        Task<T> AddAsync(T entity);//used
         Task AddRangeAsync(ICollection<T> entities);
-        Task UpdateAsync(T entity);
+        Task UpdateAsync(T entity);//used
         Task UpdateRangeAsync(ICollection<T> entities);
-        Task DeleteAsync(T entity);
+        Task DeleteAsync(T entity);//used
     }
 }
